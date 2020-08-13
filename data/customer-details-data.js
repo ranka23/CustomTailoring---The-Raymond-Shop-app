@@ -1,0 +1,98 @@
+import Ledger from "../models/Ledger";
+
+const LEDGER = [
+  new Ledger(
+    "c1",
+    "Mukeshji Kataria",
+    "Abhi Jewellers",
+    "https://data.opencity.in/wp-content/uploads/2018/03/12151934/11173336_774808502638306_7132278598248972361_n.jpg",
+    "Vijay Nagar, Bangalore",
+    "9886353637",
+    "mukeshjikataria1991@gmail.com",
+    "Ready",
+    "Today",
+  ),
+  new Ledger(
+    "c2",
+    "Abhinandhan Ramakrishna",
+    "Rama Krishna Temple Pujari",
+    "",
+    "Rajaji Nagar, Bangalore",
+    "9436353347",
+    "",
+    "Second Trial",
+    "3 days",
+  ),
+  new Ledger(
+    "c3",
+    "Parmindar Soni Singh Ahuja",
+    "Inoculent Plastics",
+    "https://data.opencity.in/wp-content/uploads/2018/03/12151934/11173336_774808502638306_7132278598248972361_n.jpg",
+    "West of Cord Road, Bangalore",
+    "8896363632",
+    "inoculentplasticspeenya@gmail.com",
+    "3 days",
+    "Second Trial",
+  ),
+  new Ledger(
+    "c4",
+    "Chirag Charles",
+    "Jiteshji's Good Friend",
+    "",
+    "Rajaji Nagar, Bangalore",
+    "8989353689",
+    "ccharles@gmail.com",
+    "Cloth Cutting",
+    "6 days",
+  ),
+  new Ledger(
+    "c5",
+    "Syed Ajmal Khan",
+    "Ajmal's Perfumes",
+    "https://starclinchwpimages.s3.ap-south-1.amazonaws.com/starclinch1/wp-content/uploads/2019/03/irfan-pathan-profile.jpg",
+    "Shivaji Nagar, Bangalore",
+    "9886432637",
+    "ajamlsperfumespvtltd@gmail.com",
+    "Yet to Start",
+    "7 days",
+    [{ shirt: 6 }, { pant: 7 }]
+  ),
+  new Ledger(
+    "c6",
+    "Samarashimha Reddy",
+    "Venkat Reddy's Brother",
+    "https://www.logintohealth.com/assets/uploads/doctors/3a2b2940210a9e6e0ff61aab267f03e3.png",
+    "Sri Ramanjaneya Layout, Nellore",
+    "9886432637",
+    "",
+    "Yet to Start",
+    "17th August",
+    [{ shirt: 2 }, { pant: 4 }, { blazer: 1 }]
+  ),
+  new Ledger(
+    "c7",
+    "Mukeshji Kataria",
+    "Abhi Jewellers",
+    "https://data.opencity.in/wp-content/uploads/2018/03/12151934/11173336_774808502638306_7132278598248972361_n.jpg",
+    "Rajaji Nagar, Bangalore",
+    "9886432637",
+    "mkataria1981.com",
+    "Yet to Start",
+    "12th September",
+    [{ shirt: 1 }, { pant: 2 }, { kurta: 1 }]
+  ),
+  new Ledger(
+    "c8",
+    "Mukeshji Kataria",
+    "Abhi Jewellers",
+    "https://data.opencity.in/wp-content/uploads/2018/03/12151934/11173336_774808502638306_7132278598248972361_n.jpg",
+    "Rajaji Nagar, Bangalore",
+    "9886432637",
+    "mkataria1981.com",
+    "Yet to Start",
+    "12th September",
+    [{ shirt: 2 }, { pant: 4 }, { blazer: 1 }]
+  ),
+];
+
+export default LEDGER;
